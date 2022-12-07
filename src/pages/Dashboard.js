@@ -1,6 +1,8 @@
 import NavBar from "../components/NavBar";
-import {useState, useEffect} from "react";
+import {useState, useEffect, useContext} from "react";
 import Card from 'react-bootstrap/Card';
+import { NameContext } from '../App';
+import { EmailContext } from '../App';
 
 
 //Dashboard page for showing APi calls

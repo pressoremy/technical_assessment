@@ -2,6 +2,7 @@ import {Navbar, Container, Nav} from 'react-bootstrap';
 import {useContext} from "react";
 import { NameContext } from '../App';
 import { useNavigate } from 'react-router-dom';
+import { EmailContext } from '../App';
 
 
 //Nav bar at top of page, uses react-bootstrap, reads global context for name
@@ -17,8 +18,8 @@ function NavBar(props){
 
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/welcome">Home</Nav.Link>
-              <Nav.Link href="/dashboard">Dashboard</Nav.Link>
+              <Nav.Link onClick={() => navigate('/welcome')}>Home</Nav.Link>
+              <Nav.Link onClick={() => navigate('/Dashboard')}>Dashboard</Nav.Link>
             </Nav>
         </Navbar.Collapse>
 

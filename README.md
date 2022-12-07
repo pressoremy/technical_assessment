@@ -2,7 +2,7 @@
 # 3-Page Simple Dashboard Application ( Front-End )
 
 
-***This will assess the candidate's :**
+## What we're assessing
 - ability to use proper version tracking practices which is essential to team collaboration
 - ability to access and retrieve data from an Api
 - ability to manipulate data from an Api well enough to build a basic UI

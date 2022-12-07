@@ -1,4 +1,4 @@
-[# technical_assessment](https://github.com/pressoremy/technical_assessment## 
+[# technical_assessment](https://github.com/pressoremy/technical_assessment)
 # 3-Page Simple Dashboard Application ( Front-End )
 
 

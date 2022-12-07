@@ -35,3 +35,25 @@
 .Profile-icon-text{
   color: white
 }
+
+.Error-page{
+  justify-Content:"center";
+  align-Items:"center";
+  display:"flex";
+  height:"100vh";
+}
+
+.Dog-image{
+  width: auto;
+  height: 100px;
+}
+.Dashboard-container{
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.youtube-video{
+  width: auto;
+  height: 300px;
+}

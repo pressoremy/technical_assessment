@@ -1,5 +1,12 @@
-function Dashboard() {
-    return <h1> Dashboard </h1>
+import NavBar from "../components/NavBar";
+
+
+function Dashboard(props) {
+    return (
+        <div className="Dashboard">
+            <NavBar/>
+        </div>
+    )
 }
 
 export default Dashboard

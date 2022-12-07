@@ -20,21 +20,18 @@
   background-color: white;
 }
 
-.Auth-form-content {
-  padding-left: 12%;
-  padding-right: 12%;
+.Profile-icon {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: purple;
+    border-radius: 50%;
+    justify-content: center;
+    font-size: large;
+    display: flex;
+    align-items: center;
 }
 
-.Auth-form-title {
-  text-align: center;
-  margin-bottom: 1em;
-  font-size: 24px;
-  color: rgb(34, 34, 34);
-  font-weight: 800;
-}
-
-label {
-  font-size: 14px;
-  font-weight: 600;
-  color: rgb(34, 34, 34);
+.Profile-icon-text{
+  color: white
 }

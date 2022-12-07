@@ -1,16 +1,15 @@
-[# technical_assessment](https://github.com/pressoremy/technical_assessment## 
-**3-Page Mobile Dashboard Application Requirement ( Android / Front-End ) :**
+[Assessment Link](https://github.com/pressoremy/technical_assessment)
+# 3-Page Simple Dashboard Application ( Front-End )
 
-<aside>
-💡 ***This will assess the candidates :**
+
+## What we're assessing
 - ability to use proper version tracking practices which is essential to team collaboration
 - ability to access and retrieve data from an Api
 - ability to manipulate data from an Api well enough to build a basic UI
 - proficiency with basic tools needed for android development ( optional )*
 
-</aside>
 
-********Things to Review:********
+## Things to Review
 
 1. Git Familiarity
 2. React 
@@ -18,7 +17,7 @@
 4. Prepare / Find two API’s to consume
 5. Prepare any libraries you feel may be useful
 
-**Requirements**:
+## Requirements
 
 1. Create a Form Page that collects your name & email then sends you to a success screen that says Hello "name".
     1. Name must be stored in global state
@@ -29,7 +28,7 @@
 4. Must be ready to talk us through your implementation
 5. Final note…have fun! add your spin on it.
 
-**********************************Success Criteria:**********************************
+## Success Criteria
 
 1. Form page
     1. Input that collects user data
@@ -41,5 +40,5 @@
     1. Show user name & email
     2. Must show a user profile image with general user info
 
-**********************************Submission:*********************************
-- submit pull request)
+## Submission Instructions
+- pull request

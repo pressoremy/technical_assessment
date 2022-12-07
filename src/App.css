@@ -1,0 +1,59 @@
+.App {
+  background-color: white;
+}
+
+.Login-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 10px;
+}
+
+.Login-form {
+  width: 420px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.Profile-icon {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: purple;
+    border-radius: 50%;
+    justify-content: center;
+    font-size: large;
+    display: flex;
+    align-items: center;
+}
+
+.Profile-icon-text{
+  color: white
+}
+
+.Error-page{
+  justify-Content:"center";
+  align-Items:"center";
+  display:"flex";
+  height:"100vh";
+}
+
+.Dog-image{
+  width: auto;
+  height: 100px;
+}
+.Dashboard-container{
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.youtube-video{
+  width: auto;
+  height: 300px;
+}

@@ -9,7 +9,7 @@ export default function Dashboard(props) {
     const [song, setSong] = useState([]);
     const [error, setError] = useState(false);
     useEffect(() => {
-        dogsAPI(1)
+        dogsAPI(Math.floor(Math.random() * 1000))
             .then ((result) =>{
                 setDog(result[0]);
                 setSong(result[1]);
@@ -27,13 +27,16 @@ export default function Dashboard(props) {
             <div className="Dashboard">
                 <NavBar/>
                 <div className="Dashboard-container">
-                    <div className="Dog-image">
-                        <img  src = {dog} />
-                    </div>
-                    <div className="Youtube-video" >
-                        <iframe src = {song} allow="autoplay; encrypted-media" allowFullScreen
+                <Card style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src={dog} />
+                    <Card.Body>
+                        <Card.Text>
+                        This dog likes this youtube video
+                        </Card.Text>
+                    </Card.Body>
+                    <iframe src = {song} allow="autoplay; encrypted-media" allowFullScreen
                             title="video"/>
-                    </div>
+                </Card> 
                 </div>
             </div>
     );
